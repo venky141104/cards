@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,316&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #ea9dea;
+  background-color: #9bf0ff;
   height: 100vh;
   display: grid;
   place-items: center center;
@@ -21,9 +21,9 @@ body {
 }
 
 .card {
-  background-color: #55eedf;
+  background-color: #e7ff9a;
   border-radius: 20px;
-  box-shadow: 0 0 30px rgba(118, 5, 5, 0.18);
+  box-shadow: 0 0 30px rgba(226, 6, 6, 0.18);
   
 }
 
@@ -50,19 +50,19 @@ body {
   left: 0;
   border-radius: 20px 20px 0 0;
   inset: 0;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .card1 .container::after {
-  background: linear-gradient(135deg, #54f024, #823904);
+  background: linear-gradient(135deg, #72ebe1, #e00f40);
 }
 
 .card2 .container:after {
-  background: linear-gradient(135deg, #c0e8f7, #230385);
+  background: linear-gradient(135deg, #a6ea30, #e7596c);
 }
 
 .card3 .container::after {
-  background: linear-gradient(135deg, #eedfb6, #9f072a);
+  background: linear-gradient(135deg, #9c86f2, #0b24a5);
 }
 
 .details {
@@ -71,21 +71,21 @@ body {
 }
 
 .details>h3 {
-  color: #090000;
+  color: #100202;
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 10px 0 15px 0;
 }
 
 .details>p {
-  color: #f9870d;
+  color: #ef7b0e;
   font-size: 15px;
-  line-height: 1;
+  line-height: o.9;
 }
-@media(max-width:800px){
+@media(max-width:768px){
     .cards{
         grid-template-columns: repeat(3,1fr);
-       
+        grid-template-rows: auto auto;
         grid-gap: 50px;
     }
     .container{
@@ -93,10 +93,9 @@ body {
     }
 }
 
-@media(min-width: 700px) and (max-width: 990px){
+@media(min-width: 650px) and (max-width: 990px){
   .cards{
     grid-template-columns: repeat(1,1fr);
     grid-gap: 30px;
   }
 }
-  
