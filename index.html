@@ -1,44 +1,166 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Resposive grid cards</title>
-    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap' rel='stylesheet' />
-    <link rel="stylesheet" href="./CSS/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Full Website Design</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet".
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 </head>
-
 <body>
-    <section class="cards">
 
-        <div class="card card1">
-            <div class="container">
-                <img src="./images/lion.jpg" alt="lion">
-            </div>
-            <div class="details">
-                <h3>lion</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione harum id unde eos consequatur labore dolorum quas cumque.</p>
-            </div>
-        </div>
+  <header>
+    <a href="#" class="logo">Foods</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
 
-        <div class="card card2">
-            <div class="container">
-                <img src="./images/nature.jpg" alt="nature">
-            </div>
-            <div class="details">
-                <h3>nature</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, suscipit! Eos quasi nam facere nisi.</p>
-            </div>
-        </div>
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1>Full Website</h1>
+      <h2>Food The <br> Most Precious Things</h2>
+      <a href="#" class="btn">TODAY'S FOOD</a>
+    </div>
+    <div class="home-img">
+      <img src="./IMAGES/FOOD1.jpg" alt="">
+    </div>
+  </section>
 
-        <div class="card card3">
-            <div class="container">
-                <img src="./images/tiger.jpg" alt="tiger">
-            </div>
-            <div class="details">
-                <h3>tiger</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel veniam quia iste earum odit, eveniet enim.</p>
-            </div>
+  <section class="about" id="about">
+    <div class="about-img">
+  <img src="./IMAGES/TODAY SPECIAL.jpg" alt="">
+    </div>
+    <div class="about-text">
+      <span>About Us</span>
+      <h2>We speak the good <br> food language</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem omnis quis eius cumque dolor tenetur porro facilis at, sunt suscipit consequatur id. </p>
+      <a href="#" class="btn">TODAY'S MENU</a>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="heading">
+      <span>Food menu</span>
+      <h2>Fresh taste and great price</h2>
+    </div>
+    <div class="menu-container">
+      <div class="box">
+        <div class="box-img">
+          <img src="./IMAGES/chicken burger.jpg" alt="">
         </div>
+        <h2>Chicken Burger</h2>
+        <h3>Tasty Food</h3>
+        <span>$11.00</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="./IMAGES/beef burger.jpg" alt="">
+        </div>
+        <h2>Special Beef Burger</h2>
+        <h3>Tasty Food</h3>
+        <span>$11.00</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="./IMAGES/beef burger.jpg" alt="">
+        </div>
+        <h2>Chicken Fry Pack</h2>
+        <h3>Tasty Food</h3>
+        <span>$11.00</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="heading">
+      <span>Services</span>
+      <h2>We provide best quality food</h2>
+    </div>
+    <div class="service-container">
+      <div class="s-box">
+        <img src="./IMAGES/order.jpg" alt="">
+        <h3>Order</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic a nesciunt asperiores facilis. Blanditiis tempora excepturi ex cum ipsum facere quo atque accusamus.</p>
+      </div>
+      <div class="s-box">
+        <img src="./IMAGES/shipping.jpg" alt="">
+        <h3>Shipping</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis laborum rerum possimus fugit sequi! Minima iusto consequuntur reprehenderit! Repellend.</p>
+      </div>
+      <div class="s-box">
+        <img src="./IMAGES/delivered.jpg" alt="">
+        <h3>Delivered</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est explicabo, expedita molestias possimus reiciendis veniam incidunt pariatur esse, qui eius enim quidem.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>We make quality food <br> Everyday</h2>
+    <a href="#" class="btn">Let's talk</a>
+  </section>
+
+  <section id="contact">
+    <div class="footer">
+      <div class="main">
+        <div class="col">
+          <h4>Menu Link</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Contact Us</h4>
+          <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <script type="text/javascript" src="food.js"></script>
 </body>
-
 </html>
